@@ -1,0 +1,10 @@
+import random
+Length =  random.randint(1,10)
+Width = random.randint(1,10)
+Area = Width * Length
+print( "the formula of Area  Length * Width")
+user_area = int(input("What is the area of the rectangle? "))
+if user_area != Area:
+  print("Incorrect, the area of the rectangle is", Area)
+else: 
+  print("You were right the area of the rectangle is", Area)
